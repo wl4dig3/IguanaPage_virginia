@@ -1,0 +1,143 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header .titulo {
+
+    width: 100%;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+header .banner {
+    background: transparent url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    opacity: 2;
+    width: 100%;
+    height: 727px;
+}
+
+main .info {
+    width: 100%;
+    height: 348px;
+    background: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info p {
+    color: white;
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    margin: 0px;
+}
+
+.cada-info img {
+    width: 100%;
+    height: 237px;
+}
+
+main .caracteristicas {
+    background-color: #1E1A13;
+    width: 100%;
+    height: 348px;
+    color: white;
+
+}
+
+.caracteristicas p {
+    font-size: 25px;
+    font-weight: lighter;
+    opacity: 1;
+    text-align: center;
+}
+
+.cada-ico {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    margin: 0px;
+}
+
+main h2 {
+    margin: 0px;
+    text-align: center;
+    padding: 60px;
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+img {
+    width: 316px;
+    height: 202px;
+}
+
+main .imagenes {
+    background-color: black;
+    width: 100%;
+    height: 348px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cada-img {
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1E1A13;
+    color: white;
+    width: 100%;
+    height: 100px;
+
+}
+
+footer p {
+    padding: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+}
