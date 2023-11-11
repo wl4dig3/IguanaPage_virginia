@@ -122,6 +122,9 @@ main .imagenes {
     display: flex;
     display: inline-block;
     padding: 10px;
+    & :hover {
+        opacity: 0.4;
+    }
 }
 
 footer {
